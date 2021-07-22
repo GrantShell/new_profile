@@ -15,7 +15,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
-  background: var(--tertiary-color);
+  background: var(--secondary-color);
 }
 
 ul {
@@ -36,7 +36,7 @@ header {
 }
 
 h1 a {
-  color: #000;
+  color: var(--tertiary-color);
 }
 
 header nav ul {
@@ -96,8 +96,8 @@ section {
 
 .title h2 {
   font-size: xx-large;
-  color: var(--secondary-color);
-  border-right: var(--secondary-color) solid 3px;
+  color: var(--tertiary-color);
+  border-right: var(--primary-color) solid 3px;
   padding: 0 15px;
   text-align: right;
 }
@@ -212,7 +212,7 @@ a.weather-dashboard {
 
 .contact ul li a {
   padding: 0 5px;
-  color: var(--secondary-color);
+  color: var(--tertiary-color;
   border-bottom: var(--secondary-color) solid 2px;
   margin: 0 20px;
 }
@@ -255,7 +255,7 @@ a.weather-dashboard {
   }
 
   .title h2 {
-    border-bottom: var(--secondary-color) solid 3px;
+    border-bottom: var(--tertiary-color) solid 3px;
     border-right: none;
     margin-bottom: 15px;
   }
